@@ -3,6 +3,11 @@ package com.it;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
+/***
+ * @Author wangchaojie
+ * @Description 具体代理类的实现
+ * @Date 2020/8/30 22:26
+ **/
 public class MapperProxy implements InvocationHandler {
 
     private WCJSqlSession sqlSession;
